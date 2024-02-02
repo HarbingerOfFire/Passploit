@@ -1,9 +1,13 @@
+<div style="color:red;">
+<pre>
 ██████╗  █████╗ ███████╗███████╗██████╗ ██╗      ██████╗ ██╗████████╗
 ██╔══██╗██╔══██╗██╔════╝██╔════╝██╔══██╗██║     ██╔═══██╗██║╚══██╔══╝
 ██████╔╝███████║███████╗███████╗██████╔╝██║     ██║   ██║██║   ██║   
 ██╔═══╝ ██╔══██║╚════██║╚════██║██╔═══╝ ██║     ██║   ██║██║   ██║   
 ██║     ██║  ██║███████║███████║██║     ███████╗╚██████╔╝██║   ██║   
-╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝     ╚══════╝ ╚═════╝ ╚═╝   ╚═╝   
+╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝     ╚══════╝ ╚═════╝ ╚═╝   ╚═╝
+</pre>
+</div>
 
 # PASSWORD EXPLOITATION FRAMEWORK
 ## Description
@@ -16,6 +20,8 @@ This repository can be easily retrieved using
 After it is retrieved, it has a built in setup sequence that can be run using the following command:
 
 `python3 passploit.py --setup`
+
+The default wordlist `rockyou.txt` can't be used until it is unzipped. 
 
 ## Usage
 ### Hash Cracking
